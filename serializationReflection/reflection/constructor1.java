@@ -6,7 +6,7 @@ public class constructor1 {
     
     public static void main(String args[]) {
         try {
-            Class cls = Class.forName("reflection.constructor1");
+            Class cls = Class.forName("constructor1");
             
             Constructor ctorlist[] = cls.getDeclaredConstructors();
             for (int i = 0; i < ctorlist.length; i++) {
