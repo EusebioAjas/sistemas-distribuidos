@@ -14,7 +14,7 @@ public class ArrayClient {
       oos = new ObjectOutputStream(socket.getOutputStream());
       ois = new ObjectInputStream(socket.getInputStream());
 
-      SerializedObject so = new SerializedObject();
+      SerializedObject so1 = new SerializedObject();
       SerializedObject so2 = new SerializedObject();
       SerializedObject result = null;
 
